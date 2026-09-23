@@ -11,7 +11,7 @@ import juanesteban.circunferencia.aplicacion.excepciones.ConexionRedException;
  *
  * @author apari
  */
-public interface EnviarCalculoPort {
+public interface EnviarCalculoInputPort {
     
       RespuestaServidorDto calcular(EnviarCalculoCommand comando) throws ConexionRedException;
 }
